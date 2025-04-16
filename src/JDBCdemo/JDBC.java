@@ -13,7 +13,7 @@ public class JDBC {
 	try 
 	{
 	  readRecords();
-	 // insertUsingPST();
+	  insertUsingPST();
 	  UpdateRecords();
 	  DeleteRecords();
 	  }
@@ -49,7 +49,7 @@ public class JDBC {
 	        }
 	    }
 	        
-	     /*   public static void insertUsingPST() throws Exception {
+	        public static void insertUsingPST() throws Exception {
 	            String url = "jdbc:mysql://localhost:3306/demodatabase";
 	            String username = "root";
 	            String password = "root";
@@ -67,9 +67,7 @@ public class JDBC {
 
 	            pst.close();
 	            conn.close();
-	        }*/
-
-  
+	        }
 	    
 	        //Update
              public static void UpdateRecords() throws Exception
