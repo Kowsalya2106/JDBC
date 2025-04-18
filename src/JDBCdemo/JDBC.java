@@ -48,7 +48,7 @@ public class JDBC {
 	            System.out.println("--------------------------");
 	        }
 	    }
-	        
+	        //inserUsingPST
 	         public static void insertUsingPST() throws Exception {
 	            String url = "jdbc:mysql://localhost:3306/demodatabase";
 	            String username = "root";
