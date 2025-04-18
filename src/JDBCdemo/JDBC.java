@@ -68,8 +68,6 @@ public class JDBC {
 	            pst.close();
 	            conn.close();
 	        }
-
-  
 	    
 	        //Update
              public static void UpdateRecords() throws Exception
