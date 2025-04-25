@@ -12,8 +12,8 @@ public class JDBC {
 	
 	try 
 	{
-	  readRecords();
-	  insertUsingPST();
+	  ReadRecords();
+	  InsertUsingPST();
 	  UpdateRecords();
 	  DeleteRecords();
 	  }
@@ -23,7 +23,7 @@ public class JDBC {
     	System.out.println("something happended");
     }
        }
-	    public static void readRecords() throws Exception {
+	    public static void ReadRecords() throws Exception {
 	        String url = "jdbc:mysql://localhost:3306/demodatabase";
 	        String username = "root";
 	        String password = "root";
@@ -49,7 +49,7 @@ public class JDBC {
 	        }
 	    }
 	        //inserUsingPST
-	         public static void insertUsingPST() throws Exception {
+	         public static void InsertUsingPST() throws Exception {
 	            String url = "jdbc:mysql://localhost:3306/demodatabase";
 	            String username = "root";
 	            String password = "root";
